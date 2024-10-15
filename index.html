@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul{
+            display: flex;
+            justify-content: space-between;
+        }
+
+        li{
+            list-style-type: none;
+        }
+        #div1{
+            background-image: url('https://media.istockphoto.com/id/1348235111/photo/innovation-and-new-ideas-lightbulb-concept-with-question-mark.jpg?s=612x612&w=0&k=20&c=i0g5Kf7jJidMSLSgorxhyfWzJwBOpn40v0TBOLLPSUc=');
+            background-size: cover;
+            background-repeat: no-repeat;
+            padding-bottom: 500px;
+        }
+        a{
+            color: yellow;
+            text-decoration: none;
+        }
+        .full img{
+                width: 150px;
+                height: 150px;
+        }
+        .full{
+            display: flex;
+            justify-content: space-between;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="div1">
+    <nav>
+    <ul>
+         <li><a href="#">Home</a></li>
+         <li><a href="#">Scientific Knowledge</a></li>
+         <li><a href="#">Mathematics</a></li>
+         <li><a href="#">Science</a></li>
+         <li><a href="#">Question Bank</a></li>
+    </ul>
+    </nav>
+    </div>
+
+    <p id="demo" style="text-align: center; color: blue;"></p>
+
+    <div class="full">
+        <div class="general-knowledge">
+            <img src="https://media.baamboozle.com/uploads/images/26489/1589415798_279983">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, repudiandae!        
+        Reiciendis iusto soluta similique repellat placeat, sequi vel iste est? Iure eligendi blanditiis
+        earum dicta ea dolorum cupiditate quod nam maiores molestias! Dolore quae dolor neque eius 
+        accusamus illo?
+    Pariatur, dolorum aperiam! Dolore facilis earum voluptas perferendis! Aliquam nesciunt ut accusantium earum.</p>
+        </div>
+            
+        <div class="math">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSajsqjGXZgBU1LOb4hjr5A3bFlFX8A7wF2sA&s">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, repudiandae!        
+                Reiciendis iusto soluta similique repellat placeat, sequi vel iste est? Iure eligendi blanditiis
+                earum dicta ea dolorum cupiditate quod nam maiores molestias! Dolore quae dolor neque eius 
+                accusamus illo?
+            Pariatur, dolorum aperiam! Dolore facilis earum voluptas perferendis! Aliquam nesciunt ut accusantium earum.</p>
+        </div>
+
+        <div class="science">
+            <img src="https://nazarethooty.edu.in/wp-content/uploads/2020/04/quiz.png">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, repudiandae!        
+                Reiciendis iusto soluta similique repellat placeat, sequi vel iste est? Iure eligendi blanditiis
+                earum dicta ea dolorum cupiditate quod nam maiores molestias! Dolore quae dolor neque eius 
+                accusamus illo?
+            Pariatur, dolorum aperiam! Dolore facilis earum voluptas perferendis! Aliquam nesciunt ut accusantium earum.</p>
+        </div>
+    </div>
+    <script>
+        var a = prompt("Please enter your name!")
+            document.getElementById("demo").innerHTML = "Welcome to our game and quizzes! Click the quic that you desire!" + a ;
+        
+    </script>
+</body>
+</html>
